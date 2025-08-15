@@ -15,13 +15,13 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Fix gradlew line endings and permissions
-        run: |
-          sed -i 's/\r$//' gradlew
-          chmod +x gradlew
-
-      - name: Build with Gradle
-        run: ./gradlew build
+      # Build WITHOUT gradlew (no wrapper needed)
+      - name: Build with Gradle (no wrapper)
+        uses: gradle/gradle-build-action@v2
+        with:
+          gradle-version: 8.7
+          build-root-directory: .
+          arguments: build
 
       - name: Upload built JAR
         uses: actions/upload-artifact@v4
