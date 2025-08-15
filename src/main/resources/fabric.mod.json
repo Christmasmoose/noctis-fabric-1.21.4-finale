@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "noctis",
+  "version": "0.1.0",
+  "name": "Noctis Masks",
+  "description": "Mask-based PvP mod for Fabric 1.21.4",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "icon": "assets/noctis/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.noctis.mod.NoctisMod"
+    ],
+    "client": [
+      "com.noctis.mod.client.NoctisClient"
+    ]
+  },
+  "mixins": [
+    "noctis.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}

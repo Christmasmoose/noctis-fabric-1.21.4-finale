@@ -1,0 +1,17 @@
+{
+  "item.noctis.flame_mask": "Flame Mask",
+  "item.noctis.frost_mask": "Frost Mask",
+  "item.noctis.storm_mask": "Storm Mask",
+  "item.noctis.bloom_mask": "Bloom Mask",
+  "item.noctis.blood_mask": "Blood Mask",
+  "item.noctis.rogue_mask": "Rogue Mask",
+  "item.noctis.rage_mask": "Rage Mask",
+  "item.noctis.hunter_mask": "Hunter Mask",
+  "item.noctis.void_mask": "Void Mask",
+  "item.noctis.sun_mask": "Sun Mask",
+  "item.noctis.moon_mask": "Moon Mask",
+  "item.noctis.fog_mask": "Fog Mask",
+  "item.noctis.glass_mask": "Glass Mask",
+  "key.noctis.fog_ability": "Fog Ability",
+  "category.noctis": "Noctis"
+}
