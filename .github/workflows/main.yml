@@ -18,7 +18,7 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
 
-        - name: Ensure gradle-wrapper.jar is readable
+      - name: Ensure gradle-wrapper.jar is readable
   run: chmod 644 gradle/wrapper/gradle-wrapper.jar
 
       - name: Build with Gradle
